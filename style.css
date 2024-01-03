@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .nav-link {
+        @apply font-semibold uppercase text-indigo-900 hover:text-indigo-500 hover:transition-colors text-base dark:text-indigo-400 hover:dark:text-indigo-200;
+    }
+}
