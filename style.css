@@ -4,6 +4,6 @@
 
 @layer utilities {
     .nav-link {
-        @apply font-semibold uppercase text-indigo-900 hover:text-indigo-500 hover:transition-colors text-base dark:text-indigo-400 hover:dark:text-indigo-200;
+        @apply font-semibold uppercase text-base text-gray-800 hover:text-indigo-600 dark:text-blue-50 hover:dark:text-indigo-400 hover:transition-colors;
     }
 }
